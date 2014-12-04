@@ -181,6 +181,9 @@ function addToList(book) {
 		var edit = document.createElement("span");
 		edit.setAttribute("onclick", "editItem(event)");
 		edit.innerHTML = "edit";
+		var descriptionLink = document.createElement("a");
+		descriptionLink.innerHTML = "Click to read the book description";
+		descriptionLink.setAttribute("href", "bookDetail.html?name=");
 		newElement.appendChild(bookNameDiv);
 		newElement.appendChild(authorNameDiv);
 		newElement.appendChild(scoreDiv);
