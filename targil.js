@@ -183,12 +183,13 @@ function addToList(book) {
 		edit.innerHTML = "edit";
 		var descriptionLink = document.createElement("a");
 		descriptionLink.innerHTML = "Click to read the book description";
-		descriptionLink.setAttribute("href", "bookDetail.html?name=");
+		descriptionLink.setAttribute("href", "bookDetail.html?name=bookNameDiv");
 		newElement.appendChild(bookNameDiv);
 		newElement.appendChild(authorNameDiv);
 		newElement.appendChild(scoreDiv);
 		newElement.appendChild(edit);
 		newElement.appendChild(x);
+		newElement.appendChild(descriptionLink);
 		var ul = document.getElementById("bookList");
 		ul.appendChild(newElement);
 }
