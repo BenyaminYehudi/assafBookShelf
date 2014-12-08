@@ -28,7 +28,7 @@ ul#bookList li  {
 }
 
 @media screen and (min-width : 480px) and (max-width : 600px)  {
-	#score {
+	.right {
 		display:none;
 	}
 	ul {
@@ -38,10 +38,10 @@ ul#bookList li  {
 }
 
 @media screen and (max-width : 480px)  {
-	#score {
+	.right {
 		display:none;
 	}
-	#authorName {
+	.center {
 		display:none;
 	}
 	.x {
