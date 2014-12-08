@@ -25,3 +25,31 @@ ul#bookList li  {
 		border: 1px solid black;
 		padding: 20px;
 }
+
+@media screen and (min-width : 480px) and (max-width : 600px)  {
+	#score {
+		display:none;
+	}
+	ul {
+		padding:20px;
+	}
+	
+}
+
+@media screen and (max-width : 480px)  {
+	#score {
+		display:none;
+	}
+	#authorName {
+		display:none;
+	}
+	.x {
+		display:none;
+	}
+	.edit {
+		display:none;
+	}
+	ul {
+		padding:0px;
+	}
+}
