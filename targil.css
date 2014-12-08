@@ -29,7 +29,7 @@ ul#bookList li  {
 
 @media screen and (min-width : 480px) and (max-width : 600px)  {
 	.right {
-		display:none;
+		display:none !important;
 	}
 	ul {
 		padding:20px;
@@ -39,10 +39,10 @@ ul#bookList li  {
 
 @media screen and (max-width : 480px)  {
 	.right {
-		display:none;
+		display:none !important;
 	}
 	.center {
-		display:none;
+		display:none !important;
 	}
 	.x {
 		display:none;
