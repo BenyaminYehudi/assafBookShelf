@@ -175,12 +175,13 @@ function addToList(book) {
 		scoreDiv.className = "right";
 		var x = document.createElement("span");
 		x.innerHTML = "X";
-		//x.onclick = removeItem;
+		x.className = "x";
 		x.setAttribute("onclick", "removeItem(event)");
 		
 		var edit = document.createElement("span");
 		edit.setAttribute("onclick", "editItem(event)");
 		edit.innerHTML = "edit";
+		edit.className = "edit";
 		var descriptionLink = document.createElement("a");
 		descriptionLink.innerHTML = "View details";
 		descriptionLink.setAttribute("href", "bookDetail.html?name=" + book.bookName);
